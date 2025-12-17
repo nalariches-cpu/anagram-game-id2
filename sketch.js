@@ -1,5 +1,6 @@
 // --- Game Data ---
 const stories = [
+    // Original Stories
     {
         theme: '⚡️',
         story: 'Pikachu menemukan 3 buah apel. Lalu, ia menemukan 2 apel lagi di bawah pohon.',
@@ -31,6 +32,167 @@ const stories = [
         question: 'Berapa sisa permen Kuromi?',
         options: [3, 5, 4],
         correctAnswer: 4
+    },
+    // 20 New Stories
+    {
+        theme: '🚗',
+        story: 'Di garasi ada 4 mobil merah. Ayah membeli 2 mobil biru lagi.',
+        visuals: ['🚗','🚗','🚗','🚗', '&nbsp;+&nbsp;', '🚗','🚗'],
+        question: 'Berapa jumlah mobil semuanya?',
+        options: [5, 6, 7],
+        correctAnswer: 6
+    },
+    {
+        theme: '🍪',
+        story: 'Ada 10 kue di toples. Adik memakan 3 kue.',
+        visuals: ['🍪','🍪','🍪','🍪','🍪','🍪','🍪','🍪','🍪','🍪', '&nbsp;-&nbsp;', '🍪','🍪','🍪'],
+        question: 'Berapa sisa kue di dalam toples?',
+        options: [6, 7, 8],
+        correctAnswer: 7
+    },
+    {
+        theme: '🦖',
+        story: 'T-Rex menemukan 5 telur. Lalu ia menemukan 5 telur lagi di sarang lain.',
+        visuals: ['🥚','🥚','🥚','🥚','🥚', '&nbsp;+&nbsp;', '🥚','🥚','🥚','🥚','🥚'],
+        question: 'Berapa total telur yang ditemukan T-Rex?',
+        options: [9, 10, 11],
+        correctAnswer: 10
+    },
+    {
+        theme: '🎈',
+        story: 'Seorang anak memiliki 8 balon. Tiba-tiba, 2 balon terbang ke langit.',
+        visuals: ['🎈','🎈','🎈','🎈','🎈','🎈','🎈','🎈', '&nbsp;-&nbsp;', '🎈','🎈'],
+        question: 'Berapa balon yang tersisa?',
+        options: [5, 6, 7],
+        correctAnswer: 6
+    },
+    {
+        theme: '🚀',
+        story: 'Sebuah roket membawa 6 astronot. Kemudian, 3 astronot lagi bergabung.',
+        visuals: ['🧑‍🚀','🧑‍🚀','🧑‍🚀','🧑‍🚀','🧑‍🚀','🧑‍🚀', '&nbsp;+&nbsp;', '🧑‍🚀','🧑‍🚀','🧑‍🚀'],
+        question: 'Berapa banyak astronot di roket sekarang?',
+        options: [8, 9, 10],
+        correctAnswer: 9
+    },
+    {
+        theme: '🐸',
+        story: 'Ada 9 katak di atas daun teratai. Sebanyak 4 katak melompat ke air.',
+        visuals: ['🐸','🐸','🐸','🐸','🐸','🐸','🐸','🐸','🐸', '&nbsp;-&nbsp;', '🐸','🐸','🐸','🐸'],
+        question: 'Berapa katak yang masih di atas daun?',
+        options: [4, 5, 6],
+        correctAnswer: 5
+    },
+    {
+        theme: '🍕',
+        story: 'Ibu membuat pizza dengan 8 potong. Ayah menambahkan 2 potong lagi.',
+        visuals: ['🍕','🍕','🍕','🍕','🍕','🍕','🍕','🍕', '&nbsp;+&nbsp;', '🍕','🍕'],
+        question: 'Ada berapa potong pizza sekarang?',
+        options: [9, 10, 12],
+        correctAnswer: 10
+    },
+    {
+        theme: '⭐️',
+        story: 'Kamu melihat 12 bintang di langit. Awan menutupi 5 bintang.',
+        visuals: ['⭐️','⭐️','⭐️','⭐️','⭐️','⭐️','⭐️','⭐️','⭐️','⭐️','⭐️','⭐️', '&nbsp;-&nbsp;', '⭐️','⭐️','⭐️','⭐️','⭐️'],
+        question: 'Berapa bintang yang masih terlihat?',
+        options: [6, 7, 8],
+        correctAnswer: 7
+    },
+    {
+        theme: '📚',
+        story: 'Di rak ada 7 buku cerita. Kakak meletakkan 4 buku lagi di sana.',
+        visuals: ['📚','📚','📚','📚','📚','📚','📚', '&nbsp;+&nbsp;', '📚','📚','📚','📚'],
+        question: 'Berapa jumlah buku di rak?',
+        options: [10, 11, 12],
+        correctAnswer: 11
+    },
+    {
+        theme: '🎩',
+        story: 'Pesulap punya 7 topi. Dia menghilangkan 2 topinya dalam trik sulap.',
+        visuals: ['🎩','🎩','🎩','🎩','🎩','🎩','🎩', '&nbsp;-&nbsp;', '🎩','🎩'],
+        question: 'Berapa sisa topi pesulap?',
+        options: [4, 5, 6],
+        correctAnswer: 5
+    },
+    {
+        theme: '🤖',
+        story: 'Sebuah pabrik membuat 5 robot. Keesokan harinya, pabrik itu membuat 3 robot lagi.',
+        visuals: ['🤖','🤖','🤖','🤖','🤖', '&nbsp;+&nbsp;', '🤖','🤖','🤖'],
+        question: 'Berapa total robot yang dibuat?',
+        options: [7, 8, 9],
+        correctAnswer: 8
+    },
+    {
+        theme: '🐛',
+        story: 'Ada 11 ulat di sehelai daun. Sebanyak 3 ulat berubah menjadi kepompong.',
+        visuals: ['🐛','🐛','🐛','🐛','🐛','🐛','🐛','🐛','🐛','🐛','🐛', '&nbsp;-&nbsp;', '🐛','🐛','🐛'],
+        question: 'Berapa banyak ulat yang tersisa di daun?',
+        options: [7, 8, 9],
+        correctAnswer: 8
+    },
+    {
+        theme: '🦊',
+        story: 'Seekor rubah melihat 2 ekor ayam. Lalu ia melihat 3 ekor ayam lagi.',
+        visuals: ['🐔','🐔', '&nbsp;+&nbsp;', '🐔','🐔','🐔'],
+        question: 'Berapa banyak ayam yang dilihat rubah?',
+        options: [4, 5, 6],
+        correctAnswer: 5
+    },
+    {
+        theme: '🕯️',
+        story: 'Ada 10 lilin menyala di atas kue. Angin meniup padam 6 lilin.',
+        visuals: ['🕯️','🕯️','🕯️','🕯️','🕯️','🕯️','🕯️','🕯️','🕯️','🕯️', '&nbsp;-&nbsp;', '🕯️','🕯️','🕯️','🕯️','🕯️','🕯️'],
+        question: 'Berapa lilin yang masih menyala?',
+        options: [3, 4, 5],
+        correctAnswer: 4
+    },
+    {
+        theme: '🌻',
+        story: 'Di taman tumbuh 8 bunga matahari. Adik menanam 4 bunga lagi.',
+        visuals: ['🌻','🌻','🌻','🌻','🌻','🌻','🌻','🌻', '&nbsp;+&nbsp;', '🌻','🌻','🌻','🌻'],
+        question: 'Berapa bunga matahari yang ada di taman sekarang?',
+        options: [11, 12, 13],
+        correctAnswer: 12
+    },
+    {
+        theme: '🐟',
+        story: 'Di akuarium ada 9 ikan. Seekor kucing menangkap 2 ikan.',
+        visuals: ['🐟','🐟','🐟','🐟','🐟','🐟','🐟','🐟','🐟', '&nbsp;-&nbsp;', '🐟','🐟'],
+        question: 'Berapa sisa ikan di akuarium?',
+        options: [6, 7, 8],
+        correctAnswer: 7
+    },
+    {
+        theme: '🎸',
+        story: 'Sebuah band punya 2 gitar. Mereka membeli 2 gitar baru.',
+        visuals: ['🎸','🎸', '&nbsp;+&nbsp;', '🎸','🎸'],
+        question: 'Berapa total gitar yang dimiliki band itu?',
+        options: [3, 4, 5],
+        correctAnswer: 4
+    },
+    {
+        theme: '🧸',
+        story: 'Seorang anak punya 6 boneka beruang. Dia memberikan 2 boneka kepada temannya.',
+        visuals: ['🧸','🧸','🧸','🧸','🧸','🧸', '&nbsp;-&nbsp;', '🧸','🧸'],
+        question: 'Berapa boneka beruang yang tersisa?',
+        options: [3, 4, 5],
+        correctAnswer: 4
+    },
+    {
+        theme: '⚽️',
+        story: 'Tim sepak bola mencetak 3 gol. Di babak kedua, mereka mencetak 2 gol lagi.',
+        visuals: ['⚽️','⚽️','⚽️', '&nbsp;+&nbsp;', '⚽️','⚽️'],
+        question: 'Berapa total gol yang mereka cetak?',
+        options: [4, 5, 6],
+        correctAnswer: 5
+    },
+    {
+        theme: '🔑',
+        story: 'Penjaga pintu punya 8 kunci. Dia kehilangan 1 kuncinya.',
+        visuals: ['🔑','🔑','🔑','🔑','🔑','🔑','🔑','🔑', '&nbsp;-&nbsp;', '🔑'],
+        question: 'Berapa kunci yang dia miliki sekarang?',
+        options: [6, 7, 8],
+        correctAnswer: 7
     }
 ];
 
